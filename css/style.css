@@ -1,0 +1,116 @@
+@font-face {
+    font-family: 'Avara_Bold';
+    src:    url('../fonts/Bold/Avara-Bold_web.eot');
+    src:    url('../fonts/Bold/Avara-Bold_web.eot?#iefix') format('embedded-opentype'),
+            url('../fonts/Bold/Avara-Bold_web.woff') format('woff'),
+            url('../fonts/Bold/Avara-Bold_web.woff2') format('woff2'),
+            url('../fonts/Bold/Avara-Bold_web.ttf') format('truetype'),
+            url('../fonts/Bold/Avara-Bold_web.svg#svgFontName') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Avara_Bold Italic';
+    src:    url('../fonts/BoldItalic/Avara-Bold_Italic_web.eot');
+    src:    url('../fonts/BoldItalic/Avara-Bold_Italic_web.eot?#iefix') format('embedded-opentype'),
+            url('../fonts/BoldItalic/Avara-Bold_Italic_web.woff') format('woff'),
+            url('../fonts/BoldItalic/Avara-Bold_Italic_web.woff2') format('woff2'),
+            url('../fonts/BoldItalic/Avara-Bold_Italic_web.ttf') format('truetype'),
+            url('../fonts/BoldItalic/Avara-Bold_Italic_web.svg#svgFontName') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Avara_Black';
+    src:    url('../fonts/Black/Avara-Black_web.eot');
+    src:    url('../fonts/Black/Avara-Black_web.eot?#iefix') format('embedded-opentype'),
+            url('../fonts/Black/Avara-Black_web.woff') format('woff'),
+            url('../fonts/Black/Avara-Black_web.woff2') format('woff2'),
+            url('../fonts/Black/Avara-Black_web.ttf') format('truetype'),
+            url('../fonts/Black/Avara-Black_web.svg#svgFontName') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+html{
+    background-color: #EE841C
+}
+
+a{
+        text-decoration: none;
+    }
+
+.header {
+    font-family: 'Avara_Black';
+    text-align: center;
+    font-size: 30px;
+}
+
+.div_infos a {
+    color: black;
+
+}
+
+.div_retour a {
+    font-family: 'Avara_Bold';
+    color: black;
+    text-align: left;
+}
+
+.div_retour a:hover{
+    font-family: 'Avara_Bold Italic';
+}
+
+.underline{
+    text-decoration: underline;
+}
+
+.div_infos {
+    font-family: 'Avara_Bold';
+    text-align: right;
+    font-size: 14px;
+}
+
+.div_infos a:hover{
+    font-family: 'Avara_Bold Italic';
+}
+
+.a_liens {
+    color: black;
+}
+
+.div_liens{
+    font-family: 'Avara_Bold';
+    text-align: left;
+    font-size: 40px
+}   
+
+.div_liens a:hover{
+    font-family: 'Avara_Bold Italic';
+}
+
+.div_liens a:visited{
+
+}
+
+.retour{
+    font-family: 'Avara_Bold' ;
+    text-align: left;
+    font-size: 14px;
+    color: black;
+}
+
+img{
+    max-width: 25%;
+    height: auto;
+    margin-top: -20px;
+    width: 150%;
+}
+
+.image img{
+    float: left;
+    margin: 10px 10px 10px 20px;
+}
