@@ -1,4 +1,4 @@
-@font-face {
+s@font-face {
     font-family: 'Avara_Bold';
     src:    url('../fonts/Bold/Avara-Bold_web.eot');
     src:    url('../fonts/Bold/Avara-Bold_web.eot?#iefix') format('embedded-opentype'),
@@ -36,14 +36,15 @@
 
 
 html{
-    background-color: #EE841C
+    background-color: #EE841C !important;
 }
 
 a{
         text-decoration: none;
     }
 
-.header {
+
+.headerm {
     font-family: 'Avara_Black';
     text-align: center;
     font-size: 30px;
@@ -90,10 +91,7 @@ a{
 
 .div_liens a:hover{
     font-family: 'Avara_Bold Italic';
-}
-
-.div_liens a:visited{
-
+    background-image: url(../img/typo/0040.jpg);
 }
 
 .retour{
@@ -113,4 +111,28 @@ img{
 .image img{
     float: left;
     margin: 10px 10px 10px 20px;
+}
+
+.conteneur_blocs{
+   
+    height: 900px;
+    display: flex;
+    flex-direction: row; 
+    border: 2px solid black;
+    justify-content: center;
+    align-content: space-around;
+}
+
+.conteneur_img{
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   align-items: center;
+    border: 2px solid black;
+    margin: 15px;       
+}
+
+.classtest{
+    background-color: yellow !important;
+
 }
