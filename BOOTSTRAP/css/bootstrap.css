@@ -158,10 +158,10 @@ a {
   background-color: transparent;
 }
 
-a:hover {
+/*a:hover {
   color: #0056b3;
   text-decoration: underline;
-}
+} */
 
 a:not([href]):not([tabindex]) {
   color: inherit;
@@ -590,8 +590,13 @@ pre code {
   display: flex;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
+  align-content: flex-end;
+  justify-content: space-around;
+  align-items: center;
   margin-right: -15px;
   margin-left: -15px;
+  margin-bottom: 30px;  
+
 }
 
 .no-gutters {
@@ -4167,6 +4172,7 @@ input[type="button"].btn-block {
   align-items: center;
   -ms-flex-pack: justify;
   justify-content: space-between;
+  flex-direction: row;
 }
 
 .navbar-brand {
@@ -8136,7 +8142,7 @@ button.bg-dark:focus {
 
 .pt-3,
 .py-3 {
-  padding-top: 1rem !important;
+  padding-top: 10rem !important;
 }
 
 .pr-3,
